@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+
+    #logo_nav{
+        width: 100px;
+        height: 100px;
+    }
+    
+   ul{
+        list-style: none;
+    }
+    #list_nav li{
+        color: white;
+        padding-left: 10px;
+    }
+}

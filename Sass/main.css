@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+nav #logo_nav {
+  width: 100px;
+  height: 100px;
+}
+nav ul {
+  list-style: none;
+}
+nav #list_nav li {
+  color: white;
+  padding-left: 10px;
+}
