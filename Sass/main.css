@@ -3,21 +3,33 @@ nav {
   background-color: black;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
 }
 nav #logo_nav {
   width: 100px;
   height: 100px;
 }
 nav ul {
+  display: flex;
   list-style: none;
 }
 nav #list_nav li {
   color: white;
-  padding-left: 10px;
+  padding-left: 30px;
 }
 
 header #img1 {
   max-height: 1200px;
   height: 500px;
+}
+header h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-family: "DM Sans", sans-serif;
+}
+header h2 {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-family: "DM Sans", sans-serif;
 }
