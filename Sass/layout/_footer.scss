@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
+    ul{
+        display: flex;
+        text-align: center;
+        list-style: none;
+    }
+    li{
+        padding-left: 10px;
+    }
+}
