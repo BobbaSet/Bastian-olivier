@@ -51,34 +51,37 @@ header #img1 {
 body {
   background-color: black;
 }
-
-p {
+body p {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: white;
   text-align: center;
 }
-
-h1 {
+body h1 {
   color: white;
   text-align: center;
   margin-bottom: 50px;
   font-size: 60px;
   font-family: "DM Sans", sans-serif;
 }
-
-h2 {
+body h2 {
   color: white;
   text-align: center;
   margin-bottom: 100px;
   font-size: 30px;
   font-family: "DM Sans", sans-serif;
 }
+body h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
 
 form {
+  text-align: center;
   margin: 0 auto;
   padding: 100px;
-  margin: 0 auto;
   margin-bottom: 300px;
   width: 500px;
 }
