@@ -14,10 +14,22 @@ nav{
        list-style: none;
     }
 
-    #list_nav li{
+    a{
+        text-decoration:none;
         color: white;
         padding: 20px;
         font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    
+    a:hover{
+        color: #58d68d;
+        font-weight: bold;
+        border-bottom: 1px solid #117a65  ;
+    }
+
+    a:visited{
+        color:  #117a65  ;
         font-weight: bold;
     }
 }

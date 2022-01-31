@@ -12,10 +12,20 @@ nav ul {
   display: flex;
   list-style: none;
 }
-nav #list_nav li {
+nav a {
+  text-decoration: none;
   color: white;
   padding: 20px;
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #58d68d;
+  font-weight: bold;
+  border-bottom: 1px solid #117a65;
+}
+nav a:visited {
+  color: #117a65;
   font-weight: bold;
 }
 
@@ -31,7 +41,7 @@ header #img1 {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 200px;
   gap: 10px;
   border: 3px solid black;
 }
@@ -43,6 +53,10 @@ header #img1 {
   margin: 0px;
   text-align: center;
   font-size: 20px;
+}
+
+#purple_nav_link :visited {
+  color: white;
 }
 
 body {
@@ -79,16 +93,21 @@ body h3 {
 
 footer {
   display: flex;
-  width: 1100px;
-  margin: 0 auto;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin-bottom: 100px;
 }
 footer ul {
   display: flex;
-  text-align: center;
   list-style: none;
 }
 footer li {
-  padding-left: 10px;
+  padding-left: 100px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
