@@ -91,21 +91,25 @@ body h3 {
   text-align: center;
 }
 
-footer {
+.reseaux {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1200px;
   margin-bottom: 100px;
 }
-footer ul {
+.reseaux ul {
   display: flex;
   list-style: none;
 }
-footer li {
-  padding-left: 100px;
+.reseaux li {
+  padding: 5px;
 }
-footer a {
+.reseaux img {
+  width: 50px;
+  height: 50px;
+}
+.reseaux a {
   text-decoration: none;
   color: white;
   font-family: "Roboto", sans-serif;
