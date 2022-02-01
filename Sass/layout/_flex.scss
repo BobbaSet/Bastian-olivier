@@ -1,0 +1,21 @@
+.flex_comp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+
+    ul{
+        list-style: none;
+        color: white;
+    }
+    li{
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+#title3{
+    margin: 0;
+}
