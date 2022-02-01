@@ -133,11 +133,17 @@ body h3 {
   list-style: none;
   color: white;
 }
-.flex_comp li {
+
+li {
   padding: 10px;
   font-family: "Roboto", sans-serif;
   color: white;
   font-size: 20px;
+}
+li .img_logo {
+  width: 100px;
+  height: 100px;
+  align-items: center;
 }
 
 #title3 {

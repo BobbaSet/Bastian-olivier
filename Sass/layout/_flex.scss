@@ -8,13 +8,21 @@
         list-style: none;
         color: white;
     }
+    
+}
     li{
         padding: 10px;
         font-family: 'Roboto', sans-serif;
         color: white;
         font-size: 20px;
+        .img_logo{
+    width: 100px;
+    height: 100px;
+    align-items: center;
     }
 }
+
+
 
 #title3{
     margin: 0;
