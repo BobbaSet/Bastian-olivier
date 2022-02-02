@@ -41,7 +41,7 @@ header #img1 {
   width: 1000px;
   margin: 0 auto;
   margin-top: 40px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   gap: 20px;
 }
 .grid img {
@@ -102,6 +102,18 @@ body h3 {
   width: 180px;
   height: 200px;
   border-radius: 60%;
+}
+
+.github {
+  margin-bottom: 150px;
+  font-size: 30px;
+}
+.github a {
+  color: #58d68d;
+}
+.github img {
+  width: 100px;
+  height: 100px;
 }
 
 .reseaux {
