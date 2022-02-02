@@ -98,6 +98,12 @@ body h3 {
   text-align: center;
 }
 
+#bast_photo {
+  width: 180px;
+  height: 200px;
+  border-radius: 60%;
+}
+
 .reseaux {
   display: flex;
   justify-content: center;
@@ -148,4 +154,17 @@ li .img_logo {
 
 #title3 {
   margin: 0;
+}
+
+.flex_description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  padding: 10px;
+  margin-bottom: 200px;
+  margin-top: 200px;
+}
+.flex_description #flex-para {
+  text-align: right;
 }
