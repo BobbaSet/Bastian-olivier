@@ -60,10 +60,11 @@ header #img1 {
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
-  #img1 {
+  header #img1 {
+    height: 100px;
     max-width: 500px;
-    height: 200px;
-    height: 200px;
+    width: 330px;
+    margin-bottom: 300px;
   }
 }
 .grid {
@@ -98,7 +99,7 @@ header #img1 {
   .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 500px;
+    max-width: 320px;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 100px;
@@ -113,9 +114,8 @@ header #img1 {
     text-align: left;
     font-size: 18px;
   }
-
-  .grid-items {
-    width: 500px;
+  .grid .grid-items {
+    max-width: 320px;
     margin: 0;
   }
 }
@@ -234,13 +234,28 @@ body h3 {
   width: 50px;
   height: 50px;
 }
-.reseaux a {
-  text-decoration: none;
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
 
+@media (min-width: 320px) and (max-width: 500px) {
+  .reseaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    width: 330px;
+    margin-bottom: 100px;
+  }
+  .reseaux ul {
+    display: flex;
+    list-style: none;
+  }
+  .reseaux li {
+    padding: 10px;
+  }
+  .reseaux img {
+    width: 50px;
+    height: 50px;
+  }
+}
 .flex_comp {
   display: flex;
   justify-content: space-around;

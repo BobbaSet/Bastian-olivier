@@ -7,9 +7,12 @@ header{
 }
 
 @media (min-width: 320px) and (max-width: 500px){
-    #img1{ 
-        max-width: 500px;
-        height: 200px;
-        height: 200px;
-    } 
+    header{
+        #img1{
+            height: 100px;
+            max-width: 500px;
+            width: 330px;
+            margin-bottom: 300px;
+        } 
+    }
 }
