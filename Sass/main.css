@@ -247,3 +247,48 @@ li .img_logo {
 .flex_description #flex-para {
   text-align: right;
 }
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .flex_comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+  .flex_comp ul {
+    list-style: none;
+    color: white;
+  }
+
+  li {
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+  }
+  li .img_logo {
+    width: 80px;
+    height: 80px;
+    align-items: center;
+  }
+
+  #title3 {
+    margin: 0;
+    margin-bottom: 60px;
+  }
+
+  .flex_description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+  }
+  .flex_description #flex-para {
+    text-align: right;
+  }
+}
