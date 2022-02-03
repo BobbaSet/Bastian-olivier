@@ -6,6 +6,17 @@ header{
     } 
 }
 
+@media (min-width: 500px) and (max-width: 890px){
+    header{
+        #img1{
+            height: 100px;
+            max-width: 890px;
+            width: 800px;
+            height: 300px;
+            margin-bottom: 300px;
+        } 
+    }
+}
 @media (min-width: 320px) and (max-width: 500px){
     header{
         #img1{

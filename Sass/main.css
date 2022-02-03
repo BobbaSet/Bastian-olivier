@@ -53,6 +53,30 @@ nav a:visited {
     font-weight: bold;
   }
 }
+@media (min-width: 500px) and (max-width: 890px) {
+  nav {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav #logo_nav {
+    width: 80px;
+    height: 80px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+}
 @media (min-width: 320px) and (max-width: 500px) {
   nav {
     display: flex;
@@ -83,6 +107,15 @@ header #img1 {
   margin-bottom: 300px;
 }
 
+@media (min-width: 500px) and (max-width: 890px) {
+  header #img1 {
+    height: 100px;
+    max-width: 890px;
+    width: 800px;
+    height: 300px;
+    margin-bottom: 300px;
+  }
+}
 @media (min-width: 320px) and (max-width: 500px) {
   header #img1 {
     height: 100px;
@@ -201,7 +234,6 @@ body h3 {
     background-color: black;
     margin: 0 auto;
     max-width: 890px;
-    margin: 0 auto;
   }
   body p {
     font-family: "Roboto", sans-serif;
@@ -364,6 +396,22 @@ li .img_logo {
   text-align: right;
 }
 
+@media (min-width: 500px) and (max-width: 890px) {
+  .flex_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+  }
+  .flex_description #flex-para {
+    text-align: right;
+  }
+}
 @media (min-width: 320px) and (max-width: 500px) {
   .flex_comp {
     display: flex;

@@ -40,6 +40,23 @@
     }
 }
 
+@media (min-width: 500px) and (max-width: 890px){
+    .flex_description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-direction: column;
+        max-width: 500px;
+        padding: 10px;
+        margin-bottom: 200px;
+        margin-top: 200px;
+    
+        #flex-para{
+            text-align: right;
+        }
+    }
+}
 @media (min-width: 320px) and (max-width: 500px){
     .flex_comp{
         display: flex;
