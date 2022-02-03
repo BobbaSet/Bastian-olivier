@@ -56,6 +56,37 @@
             text-align: right;
         }
     }
+
+    .flex_comp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 200px;
+    
+        ul{
+            list-style: none;
+            color: white;
+        }
+        
+    }
+        li{
+            padding: 10px;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            font-size: 20px;
+            .img_logo{
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        }
+    }
+    
+    #title3{
+        margin: 0;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
 }
 @media (min-width: 320px) and (max-width: 500px){
     .flex_comp{
