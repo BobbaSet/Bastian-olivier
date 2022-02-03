@@ -57,7 +57,57 @@ body{
     }
 } 
 
+@media (min-width: 500px) and (max-width: 890px){
+    body{
+        background-color: black;
+        margin: 0 auto;
+        max-width: 890px; 
+        margin: 0 auto;
+       
+        
+        p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        }
+        
+        h1{
+        color: white;
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 30px;
+        font-family: 'DM Sans', sans-serif;
+        }
+    
+        h2{
+            color: white;
+            text-align: center;
+            margin-bottom: 100px;
+            font-size:20px;
+            font-family: 'DM Sans', sans-serif;
+        }
+    
+        h3{
+            margin-top: 300px;
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+        
+    }
 
+    .github{
+        margin-bottom: 150px;
+        font-size: 20px;
+        a{
+            color:  #58d68d;
+        }
+    } 
+    
+}
 @media (min-width: 320px) and (max-width: 500px){
     body{
         background-color: black;
