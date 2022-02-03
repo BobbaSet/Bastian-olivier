@@ -5,3 +5,11 @@ header{
         margin-bottom: 300px;
     } 
 }
+
+@media (min-width: 320px) and (max-width: 500px){
+    #img1{ 
+        max-width: 500px;
+        height: 200px;
+        height: 200px;
+    } 
+}
