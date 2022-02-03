@@ -359,6 +359,28 @@ body h3 {
   height: 50px;
 }
 
+@media (min-width: 500px) and (max-width: 890px) {
+  .reseaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 520px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+  }
+  .reseaux ul {
+    display: flex;
+    list-style: none;
+  }
+  .reseaux li {
+    padding: 10px;
+  }
+  .reseaux img {
+    width: 50px;
+    height: 50px;
+  }
+}
 @media (min-width: 320px) and (max-width: 500px) {
   .reseaux {
     display: flex;
