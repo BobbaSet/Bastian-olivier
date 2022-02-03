@@ -28,6 +28,34 @@
     color: white;
 }
 
+@media (min-width: 500px) and (max-width: 890px){
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 320px;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        gap: 20px;
+    
+        img{
+            width: 320px;
+            height: 1000px;
+        }
+    
+        p{
+            margin: 0px;
+            text-align: left;
+            font-size: 18px;
+        }    
+        
+        .grid-items{
+        max-width: 320px;
+        margin: 0;
+    }
+    }
+}
+
 @media (min-width: 320px) and (max-width: 500px){
     .grid{
         display: grid;
