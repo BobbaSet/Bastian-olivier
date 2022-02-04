@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Bastian OLIVIER | Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,25 +17,112 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="Sass/main.css">
+  <link rel="icon" type="image/png" href="img/icon_bastian_noir.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans&family=M+PLUS+1p:wght@300&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans&family=M+PLUS+1p:wght@300&family=Montserrat:wght@500&family=Roboto:wght@100&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <nav>
+    <div>
+      <img src="img/logo_bastian_color_texte.png" alt="logo" id="logo_nav">
+    </div>
+    <ul>
+      <li><a href="#accueil" id="green_nav_link">Accueil</a></li>
+      <li><a href="#project">Projet</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <header>
+    <div id="img1">
+      <img src="img/img1.jpg" alt="codage css" id="img1">
+    </div>
+    
+      <h1 id="accueil">
+        Bienvenue dans mon portfolio !
+      </h1>
+      <h2>
+        Je réalise des sites web vitrine en responsive.
+      </h2>
+  </header>
+  
+  <main>
+
+    <article class="flex_description">
+      <img src="img/Bastian_img_contour.png" alt="photos de moi" id="bast_photo">
+
+      <p id="flex_para">
+        Je m'appelle Bastian, j'ai 21 ans et je suis passionné d'informatique. Je me suis lancé dans la
+        formation "Dev Int" qui m'a permis d'acquérir les compétences en HTML5 et CSS3. Je compte par la suite me 
+        spécaliser dans le développement front-end.
+      </p>
+
+    </article>
+
+    
+      <article>
+          <h3 id="project">
+            Projet réalisé en formation
+          </h3>
+        </article>
+        
+    <section>
+          <div class="grid">
+            <div class="grid-items">
+              <p>
+                Voici la maquette
+              </p>
+              <a href="img/maquette_boutique.png" target="_blank"><img src="img/maquette_boutique.png" alt="maquette"></a>
+          </div>
+
+              <div class="grid-items">
+                <p>
+                  Voici la réalisation
+                </p>
+                <a href="img/photo_boutique.png" target="_blank"><img src="img/photo_boutique.png" alt="site"></a>
+              </div>
+          </div>
+    </section>
+
+    <article class="github">
+      <p >
+        Pour en voir plus, venez visiter mon <a href="https://github.com/BobbaSet">GitHub</a>
+      </p>
+    </article>
+
+    <section class="flex_comp">
+      <h3 id="title3">
+        Mes compétences
+      </h3>
+
+      <ul>
+        <li><img src="img/html_logo.png" alt="HTML5" class="img_logo">HTML5</li>
+        <li><img src="img/css_logo.png" alt="css" class="img_logo">CSS3</li>
+        <li><img src="img/sass_logo.png" alt="sass" class="img_logo">SASS</li>
+      </ul>
+    </section>
+
+  </main> 
+
+  <footer>
+       <h1 id="contact">Contactez-moi</h1>
+          <div class="reseaux">
+            <ul>
+              <li><a href="https://twitter.com/BobbaSet" target="blank"><img src="img/twitter_icon.png" alt="twitter"></a></li>
+              <li><a href="https://www.linkedin.com/in/bastian-olivier-246545228/" target="_blank"><img src="img/linkedin_icon.png"></a></li>
+            </ul>
+          </div>
+  </footer>
 </body>
 
 </html>
