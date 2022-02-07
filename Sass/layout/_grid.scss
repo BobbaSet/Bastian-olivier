@@ -31,8 +31,8 @@
 @media (min-width: 500px) and (max-width: 890px){
     .grid{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        max-width: 320px;
+        grid-template-columns: repeat(2, 1fr);
+        width: 800px;
         margin: 0 auto;
         margin-top: 40px;
         margin-bottom: 100px;
@@ -40,7 +40,7 @@
     
         img{
             width: 320px;
-            height: 1000px;
+            height: 600px;
         }
     
         p{
@@ -50,7 +50,7 @@
         }    
         
         .grid-items{
-        max-width: 320px;
+        width: 30px;
         margin: 0;
     }
     }

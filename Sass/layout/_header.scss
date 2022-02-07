@@ -8,10 +8,9 @@ header{
 
 @media (min-width: 500px) and (max-width: 890px){
     header{
+        width: 770px;
         .img1{
-            height: 100px;
-            max-width: 890px;
-            width: 800px;
+            width: 770px;
             height: 300px;
             margin-bottom: 300px;
         } 
@@ -19,10 +18,9 @@ header{
 }
 @media (min-width: 320px) and (max-width: 500px){
     header{
-        #img1{
+        .img1{
             height: 100px;
-            max-width: 500px;
-            width: 330px;
+            width: 340px;
             margin-bottom: 300px;
         } 
     }

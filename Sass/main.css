@@ -4,7 +4,7 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-nav div #logo_nav {
+nav #logo_nav {
   width: 100px;
   height: 100px;
 }
@@ -32,6 +32,7 @@ nav a:visited {
 @media (min-width: 500px) and (max-width: 890px) {
   nav {
     display: flex;
+    width: 770px;
     background-color: black;
     align-items: center;
     justify-content: space-between;
@@ -53,30 +54,6 @@ nav a:visited {
     font-weight: bold;
   }
 }
-@media (min-width: 500px) and (max-width: 890px) {
-  nav {
-    display: flex;
-    background-color: black;
-    align-items: center;
-    justify-content: space-between;
-  }
-  nav #logo_nav {
-    width: 80px;
-    height: 80px;
-  }
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    padding: 2px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-  }
-}
 @media (min-width: 320px) and (max-width: 500px) {
   nav {
     display: flex;
@@ -85,8 +62,8 @@ nav a:visited {
     justify-content: flex-start;
   }
   nav #logo_nav {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
   nav ul {
     display: flex;
@@ -108,19 +85,19 @@ header .img1 {
 }
 
 @media (min-width: 500px) and (max-width: 890px) {
+  header {
+    width: 770px;
+  }
   header .img1 {
-    height: 100px;
-    max-width: 890px;
-    width: 800px;
+    width: 770px;
     height: 300px;
     margin-bottom: 300px;
   }
 }
 @media (min-width: 320px) and (max-width: 500px) {
-  header #img1 {
+  header .img1 {
     height: 100px;
-    max-width: 500px;
-    width: 330px;
+    width: 340px;
     margin-bottom: 300px;
   }
 }
@@ -155,8 +132,8 @@ header .img1 {
 @media (min-width: 500px) and (max-width: 890px) {
   .grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 320px;
+    grid-template-columns: repeat(2, 1fr);
+    width: 800px;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 100px;
@@ -164,7 +141,7 @@ header .img1 {
   }
   .grid img {
     width: 320px;
-    height: 1000px;
+    height: 600px;
   }
   .grid p {
     margin: 0px;
@@ -172,7 +149,7 @@ header .img1 {
     font-size: 18px;
   }
   .grid .grid-items {
-    max-width: 320px;
+    width: 30px;
     margin: 0;
   }
 }
@@ -257,7 +234,8 @@ body h3 {
   body {
     background-color: black;
     margin: 0 auto;
-    max-width: 890px;
+    max-width: 770px;
+    margin: 0;
   }
   body p {
     font-family: "Roboto", sans-serif;

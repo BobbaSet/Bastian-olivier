@@ -4,7 +4,7 @@ nav{
     align-items: center;
     justify-content: space-between;
 
-    div #logo_nav{
+    #logo_nav{
         width: 100px;
         height: 100px;
     }
@@ -37,6 +37,7 @@ nav{
 @media (min-width: 500px) and (max-width: 890px){
     nav{
         display: flex;
+        width: 770px;
         background-color: black;
         align-items: center;
         justify-content: space-between;
@@ -62,33 +63,6 @@ nav{
     }
 }
 
-@media (min-width: 500px) and (max-width: 890px){
-    nav{
-        display: flex;
-        background-color: black;
-        align-items: center;
-        justify-content: space-between;
-    
-        #logo_nav{
-            width: 80px;
-            height: 80px;
-        }
-        
-       ul{
-           display: flex;
-           list-style: none;
-        }
-    
-        a{
-            text-decoration:none;
-            color: white;
-            font-size: 16px;
-            padding: 2px;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-        }
-    }
-}
 @media (min-width: 320px) and (max-width: 500px){
     nav{
         display: flex;
@@ -97,8 +71,8 @@ nav{
         justify-content: flex-start;
     
         #logo_nav{
-            width: 80px;
-            height: 80px;
+            width: 60px;
+            height: 60px;
         }
         
        ul{
