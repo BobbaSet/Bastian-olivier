@@ -133,7 +133,7 @@ header .img1 {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 800px;
+    width: 770px;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 100px;
@@ -235,7 +235,6 @@ body h3 {
     background-color: black;
     margin: 0 auto;
     max-width: 770px;
-    margin: 0;
   }
   body p {
     font-family: "Roboto", sans-serif;
