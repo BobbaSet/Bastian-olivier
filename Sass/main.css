@@ -4,7 +4,7 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-nav #logo_nav {
+nav div #logo_nav {
   width: 100px;
   height: 100px;
 }
@@ -101,14 +101,14 @@ nav a:visited {
     font-weight: bold;
   }
 }
-header #img1 {
+header .img1 {
   height: 300px;
   max-width: 1200px;
   margin-bottom: 300px;
 }
 
 @media (min-width: 500px) and (max-width: 890px) {
-  header #img1 {
+  header .img1 {
     height: 100px;
     max-width: 890px;
     width: 800px;

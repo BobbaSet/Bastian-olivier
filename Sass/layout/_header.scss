@@ -1,5 +1,5 @@
 header{
-    #img1{
+    .img1{
         height: 300px;
         max-width: 1200px;
         margin-bottom: 300px;
@@ -8,7 +8,7 @@ header{
 
 @media (min-width: 500px) and (max-width: 890px){
     header{
-        #img1{
+        .img1{
             height: 100px;
             max-width: 890px;
             width: 800px;
