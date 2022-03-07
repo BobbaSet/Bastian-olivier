@@ -509,3 +509,24 @@ li .img_logo {
     text-align: right;
   }
 }
+.stage {
+  width: 1200px;
+  margin: 0 auto;
+}
+.stage a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.stage a:hover {
+  color: #58d68d;
+  font-weight: bold;
+  border-bottom: 1px solid #117a65;
+}
+.stage img {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
